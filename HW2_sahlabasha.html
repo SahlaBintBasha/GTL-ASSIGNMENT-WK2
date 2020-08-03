@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+button{
+    height: 30px;
+    width: 130px;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color:rgb(223, 219, 219);
+    font-size: large;
+}
+</style>
+<body>
+    
+    <h1 style="color:black; font-weight: bold; font-size: xx-large;" ><i>Before click</i></h1>
+    <button style="font-family: sans-serif; border-radius: 5%;">GET DATE</button>
+
+    
+    <h2 style="color: black; padding-top: 170px; font-size: xx-large; font-weight: bold;">After click</h2>
+    <button style="font-family: sans-serif;border-radius: 5%; border-color: cornflowerblue;" onclick="document.getElementById('GET DATE').innerHTML=Date()">GET DATE</button>
+    <p id="GET DATE"></p>
+</body>
+</html>
